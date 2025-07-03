@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fiche de renseignement - La Calamine</title>
+<style>
+body { font-family: 'Segoe UI', sans-serif; background-color: #e8f5e9; padding: 30px; }
+.section { background-color: #ffffff; border-radius: 12px; padding: 20px; max-width: 800px; margin: auto; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+h1, h2 { color: #1b5e20; text-align: center; }
+.logo { max-width: 120px; display: block; margin: 0 auto 20px auto; border-radius: 8px; }
+form { display: flex; flex-direction: column; gap: 12px; }
+label { font-weight: 600; color: #1b5e20; }
+input, textarea, select { padding: 10px; border: 1px solid #aed581; border-radius: 6px; font-size: 16px; }
+button { background-color: #43a047; color: white; border: none; padding: 12px 20px; border-radius: 6px; font-size: 16px; cursor: pointer; margin-top: 20px; }
+button:hover { background-color: #2e7d32; }
+</style>
+</head>
+<body>
+<img src="https://dummyimage.com/600x150/155724/ffffff&text=Logo+La+Calamine" alt="Logo La Calamine" class="logo">
+<div class="section">
+<h1>Fiche de renseignement La Calamine</h1>
+<form>
+<h2>Informations Parent 1</h2>
+<label>Nom :</label><input type="text">
+<label>Prénom :</label><input type="text">
+<label>Profession :</label><input type="text">
+<label>Poste occupé :</label><input type="text">
+<label>Email :</label><input type="email">
+<label>Téléphone portable :</label><input type="text">
+<label>Téléphone domicile :</label><input type="text">
+<label>Téléphone professionnel :</label><input type="text">
+
+<h2>Informations Parent 2</h2>
+<label>Nom :</label><input type="text">
+<label>Prénom :</label><input type="text">
+<label>Profession :</label><input type="text">
+<label>Poste occupé :</label><input type="text">
+<label>Email :</label><input type="email">
+<label>Téléphone portable :</label><input type="text">
+<label>Téléphone domicile :</label><input type="text">
+<label>Téléphone professionnel :</label><input type="text">
+
+<h2>Adresse, quartier et situation familiale</h2>
+<label>Adresse complète :</label><input type="text">
+<label>Commune :</label><input type="text">
+<label>Quartier :</label>
+<select>
+<option>Centre-ville</option><option>Laurier</option><option>Bellevue</option>
+<option>Biollay</option><option>Bissy</option><option>Hauts de Chambéry</option>
+<option>Chambéry le Vieux</option><option>Autre</option>
+</select>
+<label>Situation familiale :</label>
+<select>
+<option>Célibataire</option><option>Marié(e)</option><option>Divorcé(e)</option>
+<option>Union libre</option><option>Veuf(ve)</option>
+</select>
+
+<h2>Informations administratives</h2>
+<label>Numéro de sécurité sociale :</label><input type="text">
+<label>Numéro d'allocataire CAF :</label><input type="text">
+<label>Quotient familial :</label><input type="text">
+
+<h2>Informations Enfant</h2>
+<label>Nom :</label><input type="text">
+<label>Prénom :</label><input type="text">
+<label>Date de naissance :</label><input type="date">
+<label>Lieu de naissance :</label><input type="text">
+<label>Établissement scolaire :</label><input type="text">
+<label>Classe :</label><input type="text">
+<label>Personnes autorisées à récupérer l'enfant :</label><textarea rows="2"></textarea>
+<label>Personnes à prévenir en cas d'urgence :</label><textarea rows="2"></textarea>
+<label>Informations médicales importantes :</label><textarea rows="3"></textarea>
+
+<h2>Autorisations détaillées</h2>
+<label><input type="checkbox"> Autorisation de sortie pour activités extérieures</label>
+<label><input type="checkbox"> Autorisation de prise de photos/vidéos</label>
+<label><input type="checkbox"> Autorisation de soins et médicaments</label>
+<label><input type="checkbox"> Autorisation de transport minibus/transports en commun</label>
+<label><input type="checkbox"> Autorisation de baignade</label>
+<label><input type="checkbox"> Autorisation de départ seul</label>
+<label><input type="checkbox"> Autorisation de prise de décision en cas d'hospitalisation</label>
+<label><input type="checkbox"> J'atteste avoir pris connaissance que la transmission des documents ne vaut pas inscription définitive</label>
+
+<h2>Date et signatures des responsables légaux</h2>
+<label>Date :</label><input type="date">
+<label>Signature responsable légal 1 :</label><input type="text" placeholder="Nom et prénom du signataire">
+<label>Signature responsable légal 2 :</label><input type="text" placeholder="Nom et prénom du signataire">
+
+<button type="submit">Envoyer</button>
+</form>
+</div>
+</body>
+</html>
